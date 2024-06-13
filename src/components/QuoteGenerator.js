@@ -51,7 +51,25 @@ const QuoteGenerator = () => {
         </p>
         <footer>{quoteData.author}</footer>
       </blockquote>
-      <button onClick={handleNewQuoteClick}>Generate New Quote</button>
+      <button
+        style={{
+          paddingTop: "10px",
+          paddingBottom: "25px",
+          fontSize: "1rem",
+          backgroundColor: "#39ff14",
+          color: "#121212",
+          border: "none",
+          borderRadius: "20px",
+          cursor: "pointer",
+          outline: "none",
+          width: "200px",
+          textAlign: "center",
+          lineHeight: "1", // Increase line-height to accommodate multiple lines
+        }}
+        onClick={handleNewQuoteClick}
+      >
+        Generate New Quote
+      </button>
     </div>
   );
 };
