@@ -21,14 +21,14 @@ function SessionLength(props) {
           disabled={props.isPlay === true ? "disabled" : ""}
           onClick={decreaseCounter}
         >
-          Left
+          Decrease
         </button>
         <p className="intervalVals">{props.sessionLength}</p>
         <button
           disabled={props.isPlay === true ? "disabled" : ""}
           onClick={increaesCounter}
         >
-          Right
+          Increase
         </button>
       </section>
     </section>
